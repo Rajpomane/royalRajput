@@ -53,7 +53,7 @@ async def init():
     await GJ516.start()
     try:
         await GJ516.stream_call(
-            "https://telegra.ph/file/8d5db123638c2f6bb6ce4.mp4"
+            "https://telegra.ph/file/256df5789b572da996150.jpg"
         )
     except NoActiveGroupCall:
         LOGGER("GJ516X").error(
@@ -63,7 +63,7 @@ async def init():
     except:
         pass
     await GJ516.decorators()
-    LOGGER("GJ516X").info("Music Bot Started Successfully, Now Give your girlfriend chumt to @export_gabbar")
+    LOGGER("GJ516X").info("Music Bot Started Successfully, Now Give your girlfriend chumt to @I_LOVE_YOU_PAGAL")
     await idle()
 
 
